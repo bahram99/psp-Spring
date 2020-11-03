@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="Spring" name="Spring">
+      <configuration>
+        <fileset id="fileset" name="Spring Application Context" removed="false">
+          <file>file://$MODULE_DIR$/src/spring.xml</file>
+        </fileset>
+        <fileset id="fileset2" name="DI_config" removed="false">
+          <file>file://$MODULE_DIR$/src/Dependent_Object/DI_config.xml</file>
+          <file>file://$MODULE_DIR$/src/AnnotationConfig/Config.java</file>
+          <file>file://$MODULE_DIR$/src/tahlil/Configtahlil.java</file>
+          <file>file://$MODULE_DIR$/src/spring.xml</file>
+          <file>file://$MODULE_DIR$/src/DI_config.xml</file>
+        </fileset>
+        <fileset id="fileset3" name="Auto_Config" removed="false">
+          <file>file://$MODULE_DIR$/src/Autowired/Auto_Config.java</file>
+          <file>file://$MODULE_DIR$/src/AnnotationConfig/Config.java</file>
+          <file>file://$MODULE_DIR$/src/tahlil/Configtahlil.java</file>
+        </fileset>
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="libs" level="project" />
+    <orderEntry type="library" name="required" level="project" />
+  </component>
+</module>
