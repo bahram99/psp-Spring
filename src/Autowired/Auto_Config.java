@@ -7,6 +7,12 @@ import org.springframework.context.annotation.Configuration;
 @Configuration
 @ComponentScan
 public class Auto_Config {
+/*
+    @Bean
+    public void sayhello(){
+        System.out.println("hello");
+    }*/
+
     @Bean
     public MemberType memtype(){
         MemberType t1 = new MemberType();

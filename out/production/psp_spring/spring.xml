@@ -13,4 +13,10 @@
     <bean id="saysalam_prototype" class="tahlil.hello" scope="prototype">
         <property name="message" value=""/>
     </bean>
+
+    <bean id="parent" class="Autowired.Member">
+        <property name="Address">
+            <bean id="child" class="Autowired.MemberType"/>
+        </property>
+    </bean>
 </beans>

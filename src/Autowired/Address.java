@@ -1,13 +1,20 @@
 package Autowired;
 
+import org.springframework.stereotype.Component;
+
+import javax.annotation.PostConstruct;
+import javax.annotation.PreDestroy;
+
+@Component("test")
 public class Address {
-    private String city;
 
-    public String getCity() {
-        return city;
-    }
+    @PostConstruct
+    public void first(){
+        System.out.println("create");
+     }
 
-    public void setCity(String city) {
-        this.city = city;
+    @PreDestroy
+    public void destroy(){
+        System.out.println("destroy");
     }
 }
